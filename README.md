@@ -1,0 +1,32 @@
+# image-classification-project_2
+
+Image Classification Project
+This project is an implementation of image classification using different classification models, including traditional machine learning and deep learning.
+
+Models
+The following models were built:
+
+Support Vector Machine (SVM)
+Random Forest (RF)
+Decision Tree (DT)
+Convolutional Neural Network (CNN)
+Fully Connected Neural Network (FNN)
+
+Dataset
+Satellite image Classification Dataset-RSI-CB256 , This dataset has 4 different classes mixed from Sensors and google map snapshot
+
+Results
+The best performing model was the CNN, which achieved an accuracy of 95%. The other models achieved accuracies of 90%, 85%, 80%, and 75%, respectively.
+
+Instructions
+To install and run this project, you will need the following:
+
+Python 3.6 or later
+NumPy
+SciPy
+Matplotlib
+TensorFlow
+Keras
+Once you have installed the required packages, you can run the project by executing the following command:
+
+python main.py
