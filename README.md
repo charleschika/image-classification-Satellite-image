@@ -1,6 +1,5 @@
 # image-classification-project_2
 
-Image Classification Project
 This project is an implementation of image classification using different classification models, including traditional machine learning and deep learning.
 
 Models
@@ -13,11 +12,10 @@ Convolutional Neural Network (CNN)
 Fully Connected Neural Network (FNN)
 
 Dataset
-Satellite image Classification Dataset-RSI-CB256 , This dataset has 4 different classes mixed from Sensors and google map snapshot
+Satellite image Classification Dataset-RSI-CB256, This dataset has 4 different classes mixed from Sensors and google map snapshot
 
 Results
-The best performing model was the CNN, which achieved an accuracy of 95%. The other models achieved accuracies of 90%, 85%, 80%, and 75%, respectively.
-
+The result shows that deep learning models perform better than machine learning 
 Instructions
 To install and run this project, you will need the following:
 
