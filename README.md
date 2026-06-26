@@ -43,11 +43,27 @@ The project uses the **RSI-CB256 satellite image dataset**, which contains image
 
 ---
 
-## 📈 Results
-Deep learning models outperform traditional machine learning models due to their ability to automatically learn spatial hierarchies from image data.
+## 📈 Results & Performance
 
-> ✅ Replace this section with your actual results once available  
-> (Accuracy, Precision, Recall, F1-score)
+The results show that deep learning models significantly outperform traditional machine learning approaches in satellite image classification tasks.
+
+### Model Performance
+
+| Model | Validation Accuracy | Test Accuracy |
+|------|-------------------|--------------|
+| Support Vector Machine (SVM) | 0.81 | 0.79 |
+| Decision Tree (DT) | 0.85 | 0.86 |
+| Random Forest (RF) | 0.91 | 0.89 |
+| Feed-Forward Neural Network (FNN) | – | 0.91 |
+| VGG16-Based CNN | – | **0.96** |
+
+---
+
+### Key Insights
+
+- ✅ **VGG16-based CNN achieved the highest accuracy (96%)**, demonstrating the strength of deep learning for image classification  
+- ✅ **Random Forest performed best among traditional models (89% test accuracy)**  
+- ✅ **Deep learning models outperformed ML models**, as they automatically capture spatial image features  
 
 ---
 
